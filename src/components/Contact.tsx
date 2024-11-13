@@ -13,15 +13,15 @@ const Contact = () => {
               <div className="space-y-4">
                 <div className="flex items-center">
                   <Mail className="text-accent mr-4" />
-                  <span>sharad@example.com</span>
+                  <span>bableerajaryal2@gmail.com</span>
                 </div>
                 <div className="flex items-center">
                   <Phone className="text-accent mr-4" />
-                  <span>+1 234 567 890</span>
+                  <span>+447897912082</span>
                 </div>
                 <div className="flex items-center">
                   <MapPin className="text-accent mr-4" />
-                  <span>Your Location</span>
+                  <span>3 ward street, wolverhampton(WV1 3LT)</span>
                 </div>
               </div>
             </div>

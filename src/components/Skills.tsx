@@ -3,14 +3,13 @@ const Skills = () => {
     development: [
       { name: "HTML/CSS", level: 90 },
       { name: "JavaScript", level: 85 },
-      { name: "React", level: 80 },
-      { name: "Node.js", level: 75 },
+      { name: "Python", level: 80 },
     ],
     design: [
       { name: "UI/UX Design", level: 85 },
       { name: "Adobe Photoshop", level: 80 },
       { name: "Adobe Illustrator", level: 85 },
-      { name: "Figma", level: 90 },
+      { name: "Social Media Marketing", level: 88 },
     ],
   };
 
@@ -41,7 +40,7 @@ const Skills = () => {
           </div>
           
           <div>
-            <h3 className="text-2xl font-bold mb-6 text-primary">Design</h3>
+            <h3 className="text-2xl font-bold mb-6 text-primary">Design & Marketing</h3>
             <div className="space-y-6">
               {skills.design.map((skill) => (
                 <div key={skill.name}>
