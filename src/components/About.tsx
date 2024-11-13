@@ -4,7 +4,7 @@ const About = () => {
       <div className="section-container">
         <h2 className="section-title text-center">About Me</h2>
         <div className="max-w-4xl mx-auto">
-          <div className="space-y-6 text-gray-700">
+          <div className="space-y-6 text-gray-700 text-center">
             <p className="text-lg">
               I'm Sharad Raj Aryal, a Computer Science student specializing in Artificial Intelligence at Coventry University. Originally from Biratnagar, Nepal, I combine my passion for technology with a strong commitment to community impact.
             </p>
