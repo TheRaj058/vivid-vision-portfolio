@@ -7,33 +7,33 @@ const SocialLinks = () => {
         href="https://github.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="p-2 bg-white rounded-full shadow-lg hover:bg-gray-100 transition-colors"
+        className="p-2 bg-white rounded-full shadow-lg hover:bg-primary hover:scale-110 active:scale-95 transition-all duration-200 group"
       >
-        <Github size={24} className="text-gray-700" />
+        <Github size={24} className="text-gray-700 group-hover:text-white transition-colors" />
       </a>
       <a
         href="https://linkedin.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="p-2 bg-white rounded-full shadow-lg hover:bg-gray-100 transition-colors"
+        className="p-2 bg-white rounded-full shadow-lg hover:bg-primary hover:scale-110 active:scale-95 transition-all duration-200 group"
       >
-        <Linkedin size={24} className="text-gray-700" />
+        <Linkedin size={24} className="text-gray-700 group-hover:text-white transition-colors" />
       </a>
       <a
         href="https://facebook.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="p-2 bg-white rounded-full shadow-lg hover:bg-gray-100 transition-colors"
+        className="p-2 bg-white rounded-full shadow-lg hover:bg-primary hover:scale-110 active:scale-95 transition-all duration-200 group"
       >
-        <Facebook size={24} className="text-gray-700" />
+        <Facebook size={24} className="text-gray-700 group-hover:text-white transition-colors" />
       </a>
       <a
         href="https://instagram.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="p-2 bg-white rounded-full shadow-lg hover:bg-gray-100 transition-colors"
+        className="p-2 bg-white rounded-full shadow-lg hover:bg-primary hover:scale-110 active:scale-95 transition-all duration-200 group"
       >
-        <Instagram size={24} className="text-gray-700" />
+        <Instagram size={24} className="text-gray-700 group-hover:text-white transition-colors" />
       </a>
     </div>
   );
